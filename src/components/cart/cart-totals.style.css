@@ -1,0 +1,41 @@
+.totals-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.totals {
+  margin: 2rem auto;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+.totals h5 {
+  margin: 0.5rem;
+  border: 1px dotted grey;
+  font-size: 1.1rem;
+  padding: 0.1rem;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+
+.totals h5:nth-child(4) {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 1px black;
+  color: rgba(250, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.2rem 0.5rem;
+}
+
+.btn-clear {
+  margin: 1.5rem auto;
+  padding: 0.2rem 0.5rem;
+  border: 1px dotted grey;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 1px black;
+  color: rgba(250, 255, 255, 0.4);
+  cursor: pointer;
+}

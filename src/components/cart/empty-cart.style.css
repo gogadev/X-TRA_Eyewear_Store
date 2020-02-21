@@ -1,0 +1,15 @@
+.empty-cart {
+  margin: 15rem;
+}
+.empty-cart .main-title {
+  width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  .empty-cart {
+    margin: 15rem auto;
+  }
+  .empty-cart .main-title {
+    width: 80%;
+  }
+}

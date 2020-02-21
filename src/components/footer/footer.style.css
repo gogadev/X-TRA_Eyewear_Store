@@ -1,0 +1,14 @@
+footer {
+  width: 90%;
+  height: 35px;
+  background: lightgrey;
+  display: flex;
+  outline: 1px dotted rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  margin: 0.5rem auto;
+}
+
+footer p {
+  margin: 0.5rem;
+  opacity: 0.7;
+}

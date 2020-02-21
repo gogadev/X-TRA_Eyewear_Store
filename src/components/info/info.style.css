@@ -1,0 +1,91 @@
+.info-container {
+  display: grid;
+  width: 90vw;
+  height: 350px;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 4rem;
+  transform: translateX(11rem);
+}
+
+.info-title {
+  font-size: 2.2rem;
+  margin-top: 4rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+  color: rgba(250, 255, 255, 0.4);
+  border: 1px dotted grey;
+  border-top-left-radius: 20px;
+  padding: 0.2rem 0.5rem;
+  transform: translateX(-6rem);
+}
+
+.product-info img {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.subtitle {
+  position: absolute;
+  transform: rotate(270deg);
+  font-size: 1.5rem;
+  top: 27.1%;
+  left: 43.1%;
+  letter-spacing: 0.3rem;
+  padding: 0.2rem 3.1rem;
+  color: rgba(250, 255, 250, 0.3);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  border: 1px dotted rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.product-info p {
+  width: 25%;
+  position: absolute;
+  top: 6%;
+  left: 58%;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 0.5rem;
+}
+
+.info h3 {
+  width: 30%;
+  border: 1px dotted grey;
+  text-align: center;
+  background: rgba(250, 255, 250, 0.3);
+  margin: 1rem auto;
+  color: rgba(250, 255, 255, 0.4);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.9);
+  border-top-right-radius: 15px;
+  letter-spacing: 1px;
+  transform: translateX(-6.5rem);
+}
+
+.info-btn {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 88%;
+  left: 25.2%;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 1rem;
+  color: rgba(250, 255, 250, 0.3);
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+  border: 1px dotted rgba(0, 0, 0, 0.4);
+  outline: none;
+  cursor: pointer;
+  width: 25%;
+}
+
+.fa-ethereum {
+  position: absolute;
+  font-size: 2rem;
+  top: 70%;
+  left: 35.5%;
+  margin: 1rem;
+  opacity: 0.4;
+}
+

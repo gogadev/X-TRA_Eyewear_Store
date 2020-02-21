@@ -1,0 +1,35 @@
+.cart-container {
+  max-width: 90vw;
+  display: grid;
+}
+
+.cart-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 1.5rem;
+  text-transform: uppercase;
+  border-bottom: 1px dotted grey;
+  transform: translateX(1.5rem);
+  justify-content: space-evenly;
+}
+
+.cart-subtitle {
+  margin-left: 3.5rem;
+}
+
+.cart-name,
+.cart-price {
+  margin-left: 0.5rem;
+}
+
+.cart-quantity {
+  margin-left: 2.2rem;
+}
+
+.cart-remove {
+  margin-left: 3.1rem;
+}
+
+.cart-total {
+  margin-left: 6rem;
+}
