@@ -36,16 +36,6 @@ const About = () => {
             <button className="product-text">SHOP</button>
           </Link>
         </div>
-        <div className="about-mail">
-          <p>join our mail list</p>
-          <input
-            type="email"
-            name="email"
-            placeholder="enter your email address..."
-            required
-          />
-          <button>sign up</button>
-        </div>
       </div>
     </div>
   );
